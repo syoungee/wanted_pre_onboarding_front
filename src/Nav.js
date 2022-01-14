@@ -52,10 +52,10 @@ function Nav() {
               >
                 <g
                   fill="none"
-                  fill-rule="evenodd"
-                  font-family="AppleSDGothicNeo-SemiBold, Apple SD Gothic Neo"
-                  font-size="9"
-                  font-weight="500"
+                  fillRule="evenodd"
+                  fontFamily="AppleSDGothicNeo-SemiBold, Apple SD Gothic Neo"
+                  fontSize="9"
+                  fontWeight="500"
                 >
                   <g fill="#36F">
                     <g>
@@ -103,10 +103,10 @@ function Nav() {
             >
               <g
                 fill="none"
-                fill-rule="evenodd"
-                font-family="AppleSDGothicNeo-SemiBold, Apple SD Gothic Neo"
-                font-size="9"
-                font-weight="500"
+                fillRule="evenodd"
+                fontFamily="AppleSDGothicNeo-SemiBold, Apple SD Gothic Neo"
+                fontSize="9"
+                fontWeight="500"
               >
                 <g fill="#36F">
                   <g>
@@ -132,8 +132,8 @@ function Nav() {
           </a>
         </li>
       </ul>
-      <div className="Aside_classNameName___e5Bi isLoggedIn">
-        <ul className="Menu_classNameName_gGcYQ">
+      <aside className="Aside_classNameName___e5Bi isLoggedIn">
+        <ul>
           <li>
             {/* 돋보기 */}
             <svg
@@ -200,11 +200,11 @@ function Nav() {
             ></div>
             <button
               type="button"
-              dataAttributeId="gnb"
-              dataGnbKind="photo"
+              data-attribute-id="gnb"
+              data-gnb-kind="photo"
               className="profileButton"
-              ariaLabel="avatarButton"
-              dataBadge="true"
+              aria-label="avatarButton"
+              data-badge="true"
             >
               <div className="avatarBorder">
                 <div className="avatarBorder">
@@ -251,7 +251,7 @@ function Nav() {
             <a className="dashboardButton">기업 서비스</a>
           </li>
         </ul>
-      </div>
+      </aside>
     </nav>
   );
 }
