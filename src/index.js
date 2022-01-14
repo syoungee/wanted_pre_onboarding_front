@@ -1,4 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Nav from "./Nav.js";
 
-ReactDOM.render(<h1>안녕 리액트</h1>, document.getElementById("root"));
+ReactDOM.render(<Nav />, document.getElementById("root"));
