@@ -182,7 +182,6 @@ function Nav() {
             {/* 구글 아바타 */}
 
             <button
-              type="button"
               data-attribute-id="gnb"
               data-gnb-kind="photo"
               className="profileButton"
@@ -193,8 +192,10 @@ function Nav() {
                 <div
                   className="avatarImage"
                   style={{
-                    width: "32px",
-                    height: "32px",
+                    width: 28,
+                    height: 28,
+                    borderRadius: "50%",
+                    backgroundPosition: "50%",
                     backgroundImage: `url("https://lh3.googleusercontent.com/a/AATXAJx1gq5vdGSCZ9WdGUh2-CMrl9YT4A4Rc2o6tmF1=s96-c")`,
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",

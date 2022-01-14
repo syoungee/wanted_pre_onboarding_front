@@ -1424,3 +1424,65 @@ button {
   align-items: center;
   margin-right: 5px;
 }
+
+.Aside_className___e5Bi > ul li .profileButton .avatarBorder > div {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Aside_className___e5Bi > ul li .profileButton {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: top;
+  padding: 0;
+  margin-right: 11px;
+}
+.Aside_className___e5Bi > ul li .profileButton .avatarBorder > div {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 
+.Aside_hasNewMywantedAlarm__p2Tfv > span,
+.Aside_hasNewNotificationAlarm__OwKDI > span {
+  position: absolute;
+  top: -2px;
+  left: 22px;
+  padding: 0 !important;
+} */
+
+@media (min-width: 1200px) {
+  .Aside_className___e5Bi > ul li > * {
+    padding: 10px;
+  }
+}
+
+.Aside_className___e5Bi > ul li .profileButton {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: top;
+  padding: 0;
+  margin-right: 11px;
+}
+.Aside_className___e5Bi > ul li {
+  position: relative;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.Aside_hasNewMywantedAlarm__p2Tfv,
+.Aside_hasNewNotificationAlarm__OwKDI {
+  position: static;
+}
