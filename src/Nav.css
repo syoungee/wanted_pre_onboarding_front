@@ -20,8 +20,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, Helvetica, Arial, "Apple SD Gothic Neo",
-    "Nanum Gothic", "Malgun Gothic" sans-serif;
+  font-family: sans-serif, -apple-system, Helvetica, Arial,
+    "Apple SD Gothic Neo", "Nanum Gothic", "Malgun Gothic";
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -1359,7 +1359,7 @@ button {
 }
 .Aside_className___e5Bi > ul li > * {
   height: 100%;
-  padding: 5px;
+  padding: 0 5px;
   font-size: 14px;
   color: #333;
   font-weight: 600;
@@ -1496,8 +1496,7 @@ nav,
 section {
   display: block;
 }
-.MainBar_MainBar_nav_top__wXy52,
-.MainBar_hamberger__yQfei {
+.MainBar_MainBar_nav_top__wXy52 .MainBar_hamberger__yQfei {
   margin-top: -2px;
   margin-right: 15px;
 }
@@ -1593,4 +1592,178 @@ section {
   display: inline-block;
   vertical-align: bottom;
   line-height: 32px;
+}
+.Padding_padding___Nyki {
+  height: 50px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Padding_padding___Nyki,
+  .Padding_padding_isLoggedOut__WyPs1 {
+    height: 110px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .MainBar_MainBar__40DX7,
+  .MainBar_MainBar__40DX7.isLoggedIn {
+    height: 110px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .MainBar_MainBar__40DX7 {
+    margin: 0 auto;
+    height: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Aside_className___e5Bi > ul .mdMoreVisible {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Aside_className___e5Bi > ul .profileBox {
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Aside_className___e5Bi > ul li .menuButton {
+    margin-right: 0;
+  }
+}
+.Aside_className___e5Bi > ul li .menuButton {
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+@media (min-width: 1200px) {
+  .Aside_visibleMenu__Dki9n {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .MainBar_MainBar_nav_top__wXy52 {
+    padding: 15px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .MainBar_MainBar_nav_top__wXy52 {
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Menu_className__gGcYQ {
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .MainBar_MainBar__40DX7,
+  .MainBar_MainBar__40DX7.isLoggedIn {
+    height: 110px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .MainBar_MainBar__40DX7 {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .MainBar_MainBar_nav_top__wXy52 {
+    padding: 15px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .MainBar_MainBar_nav_top__wXy52 {
+    height: 60px;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Menu_className__gGcYQ {
+    justify-content: flex-start;
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Aside_className___e5Bi > ul li .searchButton,
+  .Aside_className___e5Bi > ul li .notiButton {
+    margin: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .Menu_className__gGcYQ {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 1 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Menu_className__gGcYQ .xsOnly {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .Menu_className__gGcYQ li a {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .Menu_className__gGcYQ li a {
+    padding: 15px 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Aside_visibleMenu__Dki9n {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Menu_className__gGcYQ li a {
+    font-size: 13px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Menu_className__gGcYQ li a > span {
+    right: -8px;
+    top: 4px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Menu_className__gGcYQ li a > em {
+    top: 5px;
+    right: -7px;
+  }
+}
+.Menu_className__gGcYQ li a > em {
+  position: absolute;
+  top: 10px;
+  right: -5px;
+  pointer-events: none;
+  font-style: normal;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Menu_className__gGcYQ li a {
+    padding: 11px 10px 19px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Menu_className__gGcYQ li a {
+    font-size: 13px;
+  }
 }
