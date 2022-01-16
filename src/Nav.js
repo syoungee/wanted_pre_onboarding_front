@@ -20,11 +20,28 @@ function Nav() {
                       objectFit: "contain",
                     }}
                   />
-                  <i className="icon-logo_new"></i>
                 </button>
+                <a
+                  href="/"
+                  className="MainBar_MainBar_logo__bGymr"
+                  aria-label="homeLink"
+                  data-attribute-id="gnb"
+                  data-gnb-kind="home"
+                >
+                  <i className="icon-logo_new"></i>
+                </a>
               </div>
             </div>
             <ul className="Menu_className__gGcYQ">
+              <li
+                className="xsHomeButton xsOnly selectedNav"
+                data-attribute-id="gnb"
+                data-gnb-kind="home"
+              >
+                <a href="/" aria-label="">
+                  홈
+                </a>
+              </li>
               <li className="" data-attribute-id="gnb" data-gnb-kind="jobs">
                 <a>채용</a>
               </li>
@@ -38,13 +55,17 @@ function Nav() {
               >
                 <a>직군별 연봉</a>
               </li>
-              <li>
+              <li
+                className="smMoreVisible"
+                data-attribute-id="gnb"
+                data-gnb-kind="resume"
+              >
                 <a>이력서</a>
               </li>
               <li
                 className="smMoreVisible"
                 data-attribute-id="gnb"
-                data-gnb-kind="resume"
+                data-gnb-kind="community"
               >
                 <a>
                   커뮤니티

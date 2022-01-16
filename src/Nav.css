@@ -1767,3 +1767,85 @@ section {
     font-size: 13px;
   }
 }
+
+@media (max-width: 767px) {
+  .MainBar_MainBar_nav_top__wXy52 {
+    height: 60px;
+    width: 100%;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .MainBar_MainBar__40DX7,
+  .MainBar_MainBar__40DX7.isLoggedIn {
+    height: 110px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Menu_className__gGcYQ .xsOnly {
+    display: none;
+  }
+}
+.Menu_className__gGcYQ .selectedNav {
+  box-shadow: inset 0 -2px #258bf7;
+}
+@media (min-width: 1200px) {
+  .Menu_className__gGcYQ .xsOnly {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Menu_className__gGcYQ .xsOnly {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .Menu_className__gGcYQ .smMoreVisible {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .Aside_className___e5Bi > ul .mdMoreVisible,
+  .Aside_className___e5Bi > ul .smMoreVisible {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .Aside_className___e5Bi > ul {
+    margin-top: -5px;
+  }
+}
+@media (max-width: 767px) {
+  .Aside_className___e5Bi > ul li .notiButton,
+  .Aside_className___e5Bi > ul li .searchButton {
+    margin: 0;
+  }
+}
+.MainBar_MainBar_logo__bGymr {
+  display: block;
+}
+.MainBar_MainBar_logo__bGymr > i {
+  font-size: 17px;
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .Menu_className__gGcYQ li a {
+    font-size: 13px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .Menu_className__gGcYQ li a {
+    padding: 15px 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .Menu_className__gGcYQ li a > em {
+    right: -20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .Menu_className__gGcYQ li a > span {
+    right: -20px;
+    top: 9px;
+  }
+}
