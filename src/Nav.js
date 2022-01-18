@@ -275,7 +275,7 @@ function Nav() {
                   <a className="dashboardButton">기업 서비스</a>
                 </li>
 
-                <li class="Aside_visibleMenu__Dki9n">
+                <li className="Aside_visibleMenu__Dki9n">
                   <button
                     className="menuButton"
                     aria-label="menuButton"
@@ -300,7 +300,7 @@ function Nav() {
           </nav>
         </div>
       </div>
-      <div class="Padding_padding___Nyki"></div>
+      <div className="Padding_padding___Nyki"></div>
     </>
   );
 }
