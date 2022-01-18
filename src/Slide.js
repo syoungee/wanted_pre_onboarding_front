@@ -1,22 +1,46 @@
 import React from "react";
 import "./Slide.css";
+const delay = 2500;
 
 function Slide() {
+  const [index, setIndex] = React.useState(0);
+  const timeoutRef = React.useRef(null);
+
+  function resetTimeout() {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+  }
+
+  React.useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setTimeout(
+      () => setIndex((prevIndex) => (prevIndex === 7 ? 0 : prevIndex + 1)),
+      delay
+    );
+
+    return () => {
+      resetTimeout();
+    };
+  }, [index]);
+
   return (
     <div className="TopBanner_TopBanner__yxapE">
-      <div className="slick-slider slick-initialized" dir="ltr">
-        <div className="slick-list" style={{ padding: "0px 50px" }}>
+      <div className="slick-slider" dir="ltr">
+        <div className="slick-list" style={{ padding: "0px 40px" }}>
           <div
             className="slick-track"
             style={{
               opacity: "1",
+              transform: `translate3d(${-1080 * index}px, 0, 0)`,
+              width: "18660px",
             }}
           >
             <div
               data-index="0"
               className="slick-slide"
               tabIndex="-1"
-              aria-hidden="true"
+              aria-hidden="false"
               style={{ outline: "none", width: "1060px" }}
             >
               <div>
@@ -28,7 +52,7 @@ function Slide() {
                   tabIndex="-1"
                   style={{ width: "100%", display: "inline-block" }}
                 >
-                  <div className="Image_Image__T6WBp">
+                  <div className="Image_Image__T6WBp Image_Image__false___6EY5">
                     <a href="/events/wantedcon24" className="" aria-label="">
                       <img
                         src="https://static.wanted.co.kr/images/banners/1486/fba2df30.jpg"
@@ -37,7 +61,7 @@ function Slide() {
                       />
                     </a>
                   </div>
-                  <div className="Information_Information__SwERN">
+                  <div className="Information_Information__SwERN Information_Information__false__5qVDq">
                     <h2>성과를 내는 마케팅</h2>
                     <h3>실제 사례를 공개합니다!</h3>
                     <hr className="Divider_Divider__root__f2LD0 Information_Information__divider__Z8vel" />
@@ -138,7 +162,7 @@ function Slide() {
                   tabIndex="-1"
                   style={{ width: "100%", display: "inline-block" }}
                 >
-                  <div className="Image_Image__T6WBp Image_Image__active___6EY5">
+                  <div className="Image_Image__T6WBp Image_Image__false___6EY5">
                     <a href="/events/hrclass220106" className="" aria-label="">
                       <img
                         src="https://static.wanted.co.kr/images/banners/1489/312a0c29.jpg"
@@ -147,7 +171,7 @@ function Slide() {
                       />
                     </a>
                   </div>
-                  <div className="Information_Information__SwERN">
+                  <div className="Information_Information__SwERN Information_Information__false__5qVDq">
                     <h2>2022년 달라지는 노동법령</h2>
                     <h3>노무관리 쟁점 한 눈에 파악하기</h3>
                     <hr className="Divider_Divider__root__f2LD0 Information_Information__divider__Z8vel" />
@@ -177,9 +201,9 @@ function Slide() {
 
             <div
               data-index="3"
-              className="slick-slide"
+              className="slick-slide slick-active slick-center slick-current"
               tabIndex="-1"
-              aria-hidden="true"
+              aria-hidden="false"
               style={{ outline: "none", width: "1060px" }}
             >
               <div>
@@ -191,8 +215,12 @@ function Slide() {
                   tabIndex="-1"
                   style={{ width: "100%", display: "inline-block" }}
                 >
-                  <div className="Image_Image__T6WBp">
-                    <a href="/events/livetalk28" className="" aria-label="">
+                  <div className="Image_Image__T6WBp Image_Image__false___6EY5">
+                    <a
+                      href="/events/livetalk28"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img
                         src="https://static.wanted.co.kr/images/banners/1484/b2853456.jpg"
                         alt="성장하는 개발자가 되려면?"
@@ -200,7 +228,7 @@ function Slide() {
                       />
                     </a>
                   </div>
-                  <div className="Information_Information__SwERN">
+                  <div className="Information_Information__SwERN Information_Information__active__5qVDq">
                     <h2>성장하는 개발자가 되려면?</h2>
                     <h3>OOO 검색하지 말 것!</h3>
                     <hr className="Divider_Divider__root__f2LD0 Information_Information__divider__Z8vel" />
@@ -230,9 +258,9 @@ function Slide() {
 
             <div
               data-index="4"
-              className="slick-slide"
+              className="slick-slide slick-active slick-center slick-current"
               tabIndex="-1"
-              aria-hidden="true"
+              aria-hidden="false"
               style={{ outline: "none", width: "1060px" }}
             >
               <div>
@@ -244,7 +272,7 @@ function Slide() {
                   tabIndex="-1"
                   style={{ width: "100%", display: "inline-block" }}
                 >
-                  <div className="Image_Image__T6WBp">
+                  <div className="Image_Image__T6WBp Image_Image__false___6EY5">
                     <a
                       href="/events/pre_onboarding_course_6"
                       className=""
@@ -287,9 +315,9 @@ function Slide() {
 
             <div
               data-index="5"
-              className="slick-slide"
+              className="slick-slide slick-active slick-center slick-current"
               tabIndex="-1"
-              aria-hidden="true"
+              aria-hidden="false"
               style={{ outline: "none", width: "1060px" }}
             >
               <div>
@@ -301,7 +329,7 @@ function Slide() {
                   tabIndex="-1"
                   style={{ width: "100%", display: "inline-block" }}
                 >
-                  <div className="Image_Image__T6WBp">
+                  <div className="Image_Image__T6WBp Image_Image__false___6EY5">
                     <a href="/events/velog01" className="" aria-label="">
                       <img
                         src="https://static.wanted.co.kr/images/banners/1460/619f3af7.jpg"
@@ -340,9 +368,9 @@ function Slide() {
 
             <div
               data-index="6"
-              className="slick-slide"
+              className="slick-slide slick-active slick-center slick-current"
               tabIndex="-1"
-              aria-hidden="true"
+              aria-hidden="false"
               style={{ outline: "none", width: "1060px" }}
             >
               <div>
@@ -354,7 +382,7 @@ function Slide() {
                   tabIndex="-1"
                   style={{ width: "100%", display: "inline-block" }}
                 >
-                  <div className="Image_Image__T6WBp">
+                  <div className="Image_Image__T6WBp Image_Image__false___6EY5">
                     <a href="/events/hrclass220106" className="" aria-label="">
                       <img
                         src="https://static.wanted.co.kr/images/banners/1489/312a0c29.jpg"
@@ -395,7 +423,7 @@ function Slide() {
               data-index="7"
               className="slick-slide"
               tabIndex="-1"
-              aria-hidden="true"
+              aria-hidden="false"
               style={{ outline: "none", width: "1060px" }}
             >
               <div>
@@ -407,7 +435,7 @@ function Slide() {
                   tabIndex="-1"
                   style={{ width: "100%", display: "inline-block" }}
                 >
-                  <div className="Image_Image__T6WBp">
+                  <div className="Image_Image__T6WBp Image_Image__false___6EY5">
                     <a
                       href="/events/portfolio_contents_29cm"
                       className=""
@@ -452,7 +480,7 @@ function Slide() {
               data-index="8"
               className="slick-slide"
               tabIndex="-1"
-              aria-hidden="true"
+              aria-hidden="false"
               style={{ outline: "none", width: "1060px" }}
             >
               <div>
@@ -464,7 +492,7 @@ function Slide() {
                   tabIndex="-1"
                   style={{ width: "100%", display: "inline-block" }}
                 >
-                  <div className="Image_Image__T6WBp">
+                  <div className="Image_Image__T6WBp Image_Image__false___6EY5">
                     <a
                       href="/events/pre_onboarding_course_7"
                       className=""

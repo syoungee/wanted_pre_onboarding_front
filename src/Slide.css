@@ -104,6 +104,7 @@ video {
 .slick-slider {
   position: relative;
   display: block;
+  transition: ease 1000ms;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-touch-callout: none;
@@ -131,7 +132,7 @@ video {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 @media (min-width: 1200px) {
@@ -150,8 +151,12 @@ video {
   float: left;
   height: 100%;
   min-height: 1px;
-  display: none;
 }
+.Image_Image__active___6EY5 {
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
+}
+
 .Image_Image__T6WBp {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
@@ -164,7 +169,7 @@ video {
     height: 146px;
     border-radius: 4px;
     background-color: #fff;
-    opacity: 0;
+    /* opacity: 0; */
     text-align: left;
     left: 34px;
   }
@@ -213,7 +218,7 @@ img {
     width: 330px;
     height: 146px;
     border-radius: 4px;
-    opacity: 0;
+    /* opacity: 0; */
     text-align: left;
     left: 34px;
     background-color: pink;
@@ -277,7 +282,7 @@ img {
   padding: 6px 8px;
 }
 .Information_Information__divider__Z8vel {
-  display: none;
+  /* display: none; */
 }
 .Divider_Divider__root__f2LD0 {
   height: 1px;
@@ -288,6 +293,9 @@ img {
   flex-shrink: 0;
   background-color: lightskyblue;
   /* background-color: #ececec; */
+}
+.TopBanner_TopBanner__yxapE .slick-slider .slick-slide > div {
+  margin: 20px 10px;
 }
 hr {
   margin-top: 20px;
@@ -325,7 +333,7 @@ hr {
   overflow: hidden;
 }
 .Information_Information__divider__Z8vel {
-  display: none;
+  /* display: none; */
 }
 .Divider_Divider__root__f2LD0 {
   height: 1px;
@@ -334,10 +342,10 @@ hr {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  background-color: #ececec;
+  /* background-color: #ececec; */
 }
 .Information_Information__divider__Z8vel {
-  display: none;
+  /* display: none; */
 }
 .Information_Information__directButton__8Kgp3 {
   font-size: 14px;
@@ -513,7 +521,7 @@ hr {
     height: 146px;
     border-radius: 4px;
     background-color: #fff;
-    opacity: 0;
+    /* opacity: 0; */
     text-align: left;
     left: 34px;
   }
