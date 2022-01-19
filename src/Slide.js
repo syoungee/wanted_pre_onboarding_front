@@ -67,7 +67,7 @@ function Slide() {
     return () => {
       resetTimeout2();
     };
-  }, [slideWidth]);
+  }, [slideWidth, slidePadding]);
 
   return (
     <div className="TopBanner_TopBanner__yxapE">
