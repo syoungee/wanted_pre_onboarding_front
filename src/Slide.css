@@ -135,6 +135,13 @@ video {
   margin: 0 auto;
   padding: 0;
 }
+
+@media (min-width: 1200px) {
+  .slick-slide {
+    width: 1060px;
+  }
+}
+
 @media (min-width: 1200px) {
   .TopBanner_TopBanner__yxapE .slick-slider .slick-slide {
     padding: 0 12px;
@@ -494,25 +501,6 @@ hr {
 .TopBanner_prevArrow__B7nqk {
   left: calc((100% - 1210px) / 2);
 }
-.TopBanner_arrow__BN_7d {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: absolute;
-  top: 120px;
-  width: 30px;
-  height: 60px;
-  opacity: 0.5;
-  border-radius: 15px;
-  background-color: #fff;
-  font-size: 16px;
-}
 @media (min-width: 1200px) {
   .Information_Information__SwERN {
     position: absolute;
@@ -552,8 +540,8 @@ hr {
 
 @media (min-width: 1200px) {
   .Information_Information__active__5qVDq {
-    /* -webkit-animation: Information_in__LsISw .4s ease-in-out;
-    animation: Information_in__LsISw .4s ease-in-out; */
+    -webkit-animation: Information_in__LsISw 0.4s ease-in-out;
+    animation: Information_in__LsISw 0.4s ease-in-out;
     opacity: 1;
   }
 }
