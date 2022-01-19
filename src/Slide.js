@@ -33,21 +33,20 @@ function Slide() {
 
   function addNum() {
     setTimeout(() => {
-      console.log("clicked!!");
+      console.log(" >> clicked!!");
       setIndex((prevIndex) => (prevIndex === 8 ? 0 : prevIndex + 1));
     }, 10);
   }
 
   function minusNum() {
     setTimeout(() => {
-      console.log("minus clicked!");
+      console.log(" << clicked!!");
       setIndex((prevIndex) => (prevIndex === 0 ? 8 : prevIndex - 1));
     }, 10);
   }
 
   React.useEffect(() => {
     resetTimeout2();
-    console.log(sizeRef.current);
     sizeRef.current = setTimeout(() => {
       let sizeofFront = 0;
       if (window.innerWidth >= 1084) {
@@ -69,16 +68,6 @@ function Slide() {
       resetTimeout2();
     };
   }, [slideWidth]);
-
-  console.log(
-    frontsize,
-    slideWidth,
-    slidePadding,
-    index,
-    window.innerWidth,
-    (slideWidth + 2 * slidePadding) * (9 + index)
-  );
-  console.log(`${window.innerWidth - 2 * slidePadding}px`);
 
   return (
     <div className="TopBanner_TopBanner__yxapE">
