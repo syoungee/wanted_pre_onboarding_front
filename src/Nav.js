@@ -43,31 +43,31 @@ function Nav() {
                 </a>
               </li>
               <li className="" data-attribute-id="gnb" data-gnb-kind="jobs">
-                <a>채용</a>
+                <a href="/">채용</a>
               </li>
               <li className="" data-attribute-id="gnb" data-gnb-kind="event">
-                <a>이벤트</a>
+                <a href="/">이벤트</a>
               </li>
               <li
                 className="smMoreVisible"
                 data-attribute-id="gnb"
                 data-gnb-kind="salary"
               >
-                <a>직군별 연봉</a>
+                <a href="/">직군별 연봉</a>
               </li>
               <li
                 className="smMoreVisible"
                 data-attribute-id="gnb"
                 data-gnb-kind="resume"
               >
-                <a>이력서</a>
+                <a href="/">이력서</a>
               </li>
               <li
                 className="smMoreVisible"
                 data-attribute-id="gnb"
                 data-gnb-kind="community"
               >
-                <a>
+                <a href="/">
                   커뮤니티
                   <em>
                     <svg
@@ -112,14 +112,14 @@ function Nav() {
                 data-attribute-id="gnb"
                 data-gnb-kind="community"
               >
-                <a>프리렌서</a>
+                <a href="/">프리렌서</a>
               </li>
               <li
                 className="smMoreVisible"
                 data-attribute-id="gnb"
                 data-gnb-kind="aiScore"
               >
-                <a>
+                <a href="/">
                   AI 합격예측
                   <span>
                     <svg
@@ -237,11 +237,9 @@ function Nav() {
                           width: 28,
                           height: 28,
                           borderRadius: "50%",
-                          backgroundPosition: "50%",
                           backgroundImage: `url("https://lh3.googleusercontent.com/a/AATXAJx1gq5vdGSCZ9WdGUh2-CMrl9YT4A4Rc2o6tmF1=s96-c")`,
                           backgroundRepeat: "no-repeat",
                           backgroundPosition: "center",
-                          backgroundRepeat: "no-repeat",
                           backgroundSize: "cover",
                           display: "overflow",
                         }}
@@ -272,7 +270,9 @@ function Nav() {
                   data-attribute-id="gnb"
                   data-gnb-kind="forEmployers"
                 >
-                  <a className="dashboardButton">기업 서비스</a>
+                  <a className="dashboardButton" href="/">
+                    기업 서비스
+                  </a>
                 </li>
 
                 <li className="Aside_visibleMenu__Dki9n">
