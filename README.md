@@ -1,7 +1,15 @@
-#wanted pre onboarding 과제물 제출
+## wanted pre onboarding 과제물 제출
+과제 요구사항(노션 링크) : https://www.notion.so/X-9e8ff10dd1614112a81797219b7e6742
 결과물 확인은 아래 링크에서
 https://syoungee.github.io/wanted_pre_onboarding/
 
+
+1. **상단 GNB(Global Navigation Bar)**
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8475e684-6470-4c29-baf3-6e512f27303e/Untitled.png)
+    
+    - [x] 마크업 작업(HTML, CSS)만 작업해주세요.
+    - [x] 메뉴클릭, hover 등의 이벤트는 구현하지 않아도 됩니다.
 
 
 https://user-images.githubusercontent.com/22606199/150248321-ed641d5d-1de3-41f0-8447-fd6e851e6137.mov
