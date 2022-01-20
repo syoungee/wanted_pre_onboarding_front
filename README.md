@@ -1,3 +1,27 @@
+#wanted pre onboarding 과제물 제출
+결과물 확인은 아래 링크에서
+https://syoungee.github.io/wanted_pre_onboarding/
+
+
+
+https://user-images.githubusercontent.com/22606199/150248321-ed641d5d-1de3-41f0-8447-fd6e851e6137.mov
+
+
+
+
+https://user-images.githubusercontent.com/22606199/150248342-6c3e6477-4163-4ec2-b70b-fdf6db8a0b63.mov
+
+
+
+
+
+https://user-images.githubusercontent.com/22606199/150248349-b3e9ca1e-35f9-4975-bd64-aa63d3acdfd0.mov
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
